@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+:root{
+  --fonte-primaria:'Lora', serif;
+  --cor-de-fundo:#d7cabd;
+  --cor-primaria:#7D6E83;
+  --cor-secundaria:#DFD3C3;
+  --detalhes:#7D6E83;
+}
+
+
+body{
+    background-color: var(--cor-de-fundo);
+    color:var(--cor-primaria);
+    min-height: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--fonte-primaria);
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h3{
+    font-size: 2em;
+    margin: 20px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top:40px ;
+}
+
+.box{
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    font-size: 4em;
+    padding:10;
+    margin: 20px;
+}
