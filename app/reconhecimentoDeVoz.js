@@ -17,5 +17,12 @@ recognition.addEventListener('result', onSpeak)
  }
 
  function exibeChuteNaTela(chute){
+   elementoChute.innerHTML = `
+     
+   <div> Você disse </div>
+   <span class= "box">${chute}</spam>
+   ` 
 
  }
+
+ recognition.addEventListener('end',()=> recognition.start())
